@@ -76,17 +76,21 @@
 </selector>
 
 ```
-- ** android:state_enabled="false" ** 表示不可用状态下的效果，一般设置为灰色。
-- ** android:state_enabled="true" ** 表示可用状态下的效果。
+- __android:state_enabled="false"__ 表示不可用状态下的效果，一般设置为灰色。
+- __android:state_enabled="true"__ 表示可用状态下的效果。
 
-- 最后还要有个** 默认状态 **就是`<item>`标签里不加状态属性。
+	_可以通过布局文件、Java Code 设置是否可用：
+	android:enabled="true/false"、widget.setEnabled(true,false)_
 
-- `<shape> `标签顾名思义表示** 形状 **,可以通过android:shape指定形状，可指定的形状有：
-	** rectangle **、 ** oval **、** line **、** ring **.
+
+- 最后还要有个_默认状态__就是`<item>`标签里不加状态属性。
+
+- `<shape> `标签顾名思义表示** 形状 **,可以通过__android:shape__指定形状，可指定的形状有：
+	__rectangle__、 __oval__、__line__、__ring__.
 
 - `<solid>` 标签表示形状里填充的颜色
-- `<stroke>` 用来画边框的画笔 可指定画笔的 **颜色** 和  **宽度**。
-- `<corners>` 用来指定四周的**圆角**角度
+- `<stroke>` 用来画边框的画笔 可指定画笔的 __颜色__ 和  __宽度__。
+- `<corners>` 用来指定四周的 __圆角__ 角度
 
 
 
