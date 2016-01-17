@@ -13,7 +13,7 @@
 
 
 ###2. 实现自定义CheckBox效果：
-首先新建`selector`文件** selector_checkbox_style.xml **，内容如下：
+首先新建`selector`文件 `selector_checkbox_style.xml`，内容如下：
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
@@ -82,12 +82,12 @@
 
 - 最后还要有个** 默认状态 **就是`<item>`标签里不加状态属性。
 
-- `<shape> `标签顾名思义表示** 形状 **,可以通过android:shape指定形状，可指定的形状有：
-	** rectangle **、 ** oval **、** line **、** ring **.
+- `<shape> `标签顾名思义表示形状,可以通过android:shape指定形状，可指定的形状有：
+	`rectangle`、 `oval`、`line`、`ring`.
 
 - `<solid>` 标签表示形状里填充的颜色
-- `<stroke>` 用来画边框的画笔 可指定画笔的 **颜色** 和  **宽度**。
-- `<corners>` 用来指定四周的**圆角**角度
+- `<stroke>` 用来画边框的画笔 可指定画笔的 颜色 和 宽度。
+- `<corners>` 用来指定四周的 圆角 角度
 
 
 
