@@ -78,6 +78,7 @@
 ```
 - ** android:state_enabled="false" ** 表示不可用状态下的效果，一般设置为灰色。
 - ** android:state_enabled="true" ** 表示可用状态下的效果。
+可通过布局文件、Java code设置是否可用: `android:enabled="true/false"`; `widget.setEnabled(true/false)`
 
 - 最后还要有个** 默认状态 **就是`<item>`标签里不加状态属性。
 
